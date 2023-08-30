@@ -8,11 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 //@Component("controller")
 public class Controller {
 
-//    @GetMapping("/hello")
+    @GetMapping("/hello")
 
-    @GetMapping("/")
-    public String index() {
-        return "Greetings from Spring Boot!";
+    public String getID(@RequestParam(value = "ID", defaultValue = "Example") String id) {
+        String book="";
+
+
+//		if(id.equals("4")){
+//			book="Lemons";
+//		}
+        return String.format("The title is %s!", id);
     }
 
 
