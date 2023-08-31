@@ -1,0 +1,22 @@
+<!--<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+
+<!--    <session-factory>-->
+
+<!--        &lt;!&ndash; Database connection settings &ndash;&gt;-->
+<!--        <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:sqlite:/C:/Users/lbartosik/OneDrive - PEPCO/Dokumenty/SQL/sqlite/hiber.db</property>-->
+
+<!--        &lt;!&ndash; Specify dialect &ndash;&gt;-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property>-->
+
+<!--        &lt;!&ndash; Other Hibernate properties &ndash;&gt;-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.format_sql">true</property>-->
+
+<!--        &lt;!&ndash; Mapping files or annotated classes &ndash;&gt;-->
+<!--        &lt;!&ndash; Add your entity class mappings here &ndash;&gt;-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->

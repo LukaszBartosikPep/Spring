@@ -17,7 +17,7 @@ public class Controller {
 //		if(id.equals("4")){
 //			book="Lemons";
 //		}
-        return String.format("The title is %s!", id);
+        return id;
     }
 
 

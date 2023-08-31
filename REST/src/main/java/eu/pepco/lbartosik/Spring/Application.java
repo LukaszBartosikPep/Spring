@@ -7,22 +7,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @SpringBootApplication
 
 public class Application {
 
-	@Autowired
-	private Controller controller;
+//	@Autowired
+//	private Controller controller;
 
-	@Autowired
-	public Application(Controller controller){
-		this.controller=controller;
-	}
-	public void run(){
-		controller.getID();
-	}
+//	@Autowired
+//	public Application(Controller controller){
+//		this.controller=controller;
+//	}
+//	public void run(){
+//		controller.getID();
+//	}
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
+		//Tylko main własciwie potrzebne
 
 
 
