@@ -17,14 +17,18 @@ public class BookService {
         userRepository.findAll().forEach(users::add);
         return users;
     }
-    @Autowired
-    Controller controller;
-    String id= controller.getID(String id);
-    public List<Books> getBookById() {
-        List<User> users = new ArrayList<>();
-        userRepository.findById(id).forEach(users::add);
-        return users;
+    public String retrieveID(String id) {
+        // You can perform logic here, if needed
+        return id;
     }
+//    @Autowired
+//    Controller controller;
+//    String id= controller.getID(String id);
+//    public List<Books> getBookById() {
+//        List<User> users = new ArrayList<>();
+//        userRepository.findById(id).forEach(users::add);
+//        return users;
+//    }
 
 
 
