@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+//import javax.persistence.*;
 
 @Service
 public class BookService {
@@ -12,9 +13,14 @@ public class BookService {
     @Autowired
     private UserRepository userRepository;
 
-    public List<User> getAllUsers() {
-        List<User> users = new ArrayList<>();
+
+
+//    @GetMapping("/getusers")
+    public List<Users> getAllUsers() {
+        List<Users> users = new ArrayList<>();
         userRepository.findAll().forEach(users::add);
+
+//        System.out.println(users);
         return users;
     }
 //    public String retrieveID(String id) {
