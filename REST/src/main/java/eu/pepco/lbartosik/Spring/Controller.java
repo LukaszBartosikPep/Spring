@@ -27,22 +27,22 @@ public class Controller {
         return idn;
     }
 //    @ResponseBody
-//    @GetMapping("/getusers")
-//    public String showUsers(){
-//
-//        return getUserById(id);
-//    }
-//public String getUserById(Long id) {
-//
-////    List<Users> users = new ArrayList<>();
-////    userRepository.findById(id).forEach(users::add);
-//    String singleUser= String.valueOf(userRepository.findById(id));
-//
-//
-////    .findById(id));
-////    users.addAll(singleUser);
-//    return singleUser;
-//}
+    @GetMapping("/getusers")
+    public String showUsers(){
+
+        return getUserById(id);
+    }
+public String getUserById(Long id) {
+
+//    List<Users> users = new ArrayList<>();
+//    userRepository.findById(id).forEach(users::add);
+    String singleUser= String.valueOf(userRepository.findById(id));
+
+
+//    .findById(id));
+//    users.addAll(singleUser);
+    return singleUser;
+}
 
 
 
